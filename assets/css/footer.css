@@ -1,0 +1,32 @@
+.footer .container {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  padding-block: 30px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 14px;
+  font-size: 20px;
+  font-weight: 700;
+  i {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 534px) {
+  .footer .container {
+    flex-direction: column;
+  }
+  .contact-link {
+    font-size: 14px;
+    i {
+      font-size: 24px;
+    }
+  }
+}

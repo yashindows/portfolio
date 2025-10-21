@@ -1,0 +1,35 @@
+.banner .container {
+  position: relative;
+  display: flex;
+  gap: 80px;
+  /* justify-content: center; */
+  height: 100dvh;
+  padding-top: 100px;
+}
+
+.banner-text {
+  max-width: 550px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding: 25px;
+  row-gap: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 4px #00000041;
+}
+
+.explore {
+  position: absolute;
+  bottom: 10px;
+  background-color: transparent;
+  border: solid 1px #33333363;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  left: 50%;
+  &:hover i {
+    transform: translateY(2px);
+  }
+}

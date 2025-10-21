@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 10px;
+  z-index: 10;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 0 4px #3333333a;
+  padding: 15px;
+  background-color: var(--background-color);
+}
+
+.navbar__body {
+  display: flex;
+  gap: 25px;
+}
+
+@media (max-width: 350px) {
+  .header {
+    font-size: 14px;
+  }
+}
